@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 app = Flask(__name__)
-app.secret_key = 'f3b9b2a7e1a6428c93b9c12c65fa46bd'  # Required for using sessions
+app.secret_key = 'your-secret-key'  # Required for using sessions
 
 model = joblib.load('model/model.pkl')
 
